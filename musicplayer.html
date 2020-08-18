@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="musicplayer.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1 , minimum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body id="main-body" >
+    <header class="main-header" >
+         <div class="left-corner-header" >
+          <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/220/musical-note_1f3b5.png" >	
+           <div class="heading-title" >
+            <span style="color:white; font-weight:normal; font-size:1rem;  "> 
+            What The
+            </span>
+            <br>
+            <span style="color:white; font-weight:bolder;  ">
+           	TUNE
+            </span>
+            <span style="color:white;" id="fav">
+           	<a href="#"> Favourites</a>
+            </span>
+           </div> 
+             </div> 
+            <div class="right-corner-header" >
+              <div class="search-bar-icon" >
+               <i class="fas fa-search"></i>
+               </div>
+               <div class="search-bar" >
+                <a type="button" placeholder="search"> 
+                Search
+               </a>		
+              </div>
+              <div class="microphone-icon" >
+              	<i class="fas fa-microphone"></i>
+              </div>	
+              <div class="notification-icon" >
+              	<i class="fas fa-bell"></i>
+              </div>   
+              <div class="user-image" >
+              	<i class="fas fa-user"></i>
+              </div>	
+       </div>      
+    </header> 	
+    <main >
+     <section class="carasoul">
+        	<div class="first-carasoul" >
+        	<img src=" https://upload.wikimedia.org/wikipedia/en/thumb/0/03/PBX_1_%28album%29.jpg/220px-PBX_1_%28album%29.jpg" >
+            </div>
+            <div class="second-carasoul" >
+            <img src="https://www.closeup-shop.com/media/oart_0/oart__/oart_44320/thumbs/353704_2116986.jpg"> 	
+            </div>
+            <div class="third-carasoul" >
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Imagine-Dragons-Believer-art.jpg"> 	
+            </div> 	
+     </section>
+
+      <section class="aside">
+        <div class="aside-heading" >
+           <span> 
+           Queue
+           </span>
+        </div>
+
+        <div class="aside-side-heading" >
+        <span>
+        Queue
+        </span>	
+        &nbsp &nbsp
+        <i style="color:skyblue;" class="fas fa-chevron-down"></i>
+        </div>
+
+
+  
+        <div class="song-column opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+        <div class="song-column-1 opaque " >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+
+         <div class="song-column-2 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image " >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+        <div class="song-column-3 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+
+
+        <div class="song-column-4 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+		
+
+
+
+
+		<div class="song-column-5 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+
+
+
+
+        <div class="song-column-6 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+	
+
+	    <div class="song-column-7 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+        <div class="song-column-8 opaque"  >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+        <div class="song-column-9 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+        <div class="song-column-10 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+
+
+        <div class="song-column-11 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>   
+   
+
+
+         <div class="song-column-12 opaque" >
+           <span style="color:grey; position:absolute; top:23%; left:5%;">
+           	01
+           </span> 
+           <span style="color:white; position:absolute; top:23%; left:30%;    ">
+           	Faded
+           </span>
+           <br>
+           <span style="color:grey; position:absolute; top:55%; left:30% ">
+           	alan Walker
+           </span>
+           <span style="position:absolute; top:23%; left:85%;  ">
+           	<i style="color:grey; " class="far fa-heart"></i>
+           </span>
+           <div class="song-column-image" >
+           	<img src="https://i.pinimg.com/564x/b6/2c/01/b62c01e9cf67e62aacf00e2ef7618edc.jpg">
+           </div>
+        </div>
+
+
+     </section>
+  
+     <section class="player-icon">
+     	 <div class="player-heading">
+     	 <span style="color:white;font-weight:bold;font-size:1.2rem; margin-left:37px;">LATEST RELEASES </span>	
+     	 </div>
+     	 <div class="player-items" >
+     	 	<div class="item-1" >
+     	 		<div class="item-icon" >
+     	 		  <img src="https://img.bestwap2.in/load/MP3_Songs/Punjabi_Songs/2018%20Punjabi%20Songs/folder-thumb-PBX1%20Punjabi%20Mp3%20Songs%20-%20Sidhu%20Moose%20Wala.jpg">	
+     	 		</div> 	
+
+                 <div class="item-player dropdown-menu " >
+ 					 <div class="item-player-icon"  >
+                        <i class="fas fa-ellipsis-h"></i>
+ 					 </div> 
+                     <div class="dropdown-list" >
+ 						<ul class="no-list-style" >
+ 						 <li>
+ 						   <p><i class="fas fa-play"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <a href="#music-player">Play </a></i>
+ 						  </p>
+ 						 </li> 	 
+ 						 <li>
+ 						  <p><i class="fas fa-plus">
+ 						  	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+ 						  	<a href="#">Add</a>
+ 						  </i></p>
+ 						 </li>	
+                         <li>
+                           <p  >
+                           	<i class="fas fa-info-circle"> &nbsp &nbsp &nbsp &nbsp<a href="#"> Get info</a></i>
+                           </p>
+                         </li>  	
+                     </div>	
+                   </div>  
+
+                    <div class="item-song-name" >
+                    <span style="color:white; font-weight:bolder;">
+                    	Trend
+                    </span>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp 
+                    
+                    <span style="color:white; font-weight:lighter;">
+                    	4:45 
+                    </span>
+                   </div> 
+
+                   <div class="item-song-singer" >
+                   	<span style="color:grey; font-weight:lighter; ">
+                   	Sidhu Moosewala
+                   	</span>	
+                   </div>
+     	    </div>		
+
+
+
+     	    <div class="item-2" >
+                <div class="item-icon" >
+     	 		 <img src="https://img.bestwap2.in/load/MP3_Songs/Punjabi_Songs/2018%20Punjabi%20Songs/folder-thumb-PBX1%20Punjabi%20Mp3%20Songs%20-%20Sidhu%20Moose%20Wala.jpg">	
+     	 		 
+     	 		 </div> 	
+
+     	 		  <div class="item-player dropdown-menu " >
+ 					 <div class="item-player-icon"  >
+                        <i class="fas fa-ellipsis-h"></i>
+ 					 </div> 
+                     <div class="dropdown-list" >
+ 						<ul class="no-list-style" >
+ 						 <li>
+ 						   <p><i class="fas fa-play"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <a href="#music-player">Play </a></i>
+ 						  </p>
+ 						 </li> 	 
+ 						 <li>
+ 						  <p><i class="fas fa-plus">
+ 						  	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+ 						  	<a href="#">Add</a>
+ 						  </i></p>
+ 						 </li>	
+                         <li>
+                           <p  >
+                           	<i class="fas fa-info-circle"> &nbsp &nbsp &nbsp &nbsp<a href="#"> Get info</a></i>
+                           </p>
+                         </li>  	
+                     </div>	
+                   </div>  
+
+                    <div class="item-song-name" >
+                    <span style="color:white; font-weight:bolder;">
+                    	Trend
+                    </span>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp 
+                   
+                    <span style="color:white; font-weight:lighter;">
+                    	4:45 
+                    </span>
+                   </div> 
+
+                   <div class="item-song-singer" >
+                   	<span style="color:grey; font-weight:lighter; ">
+                   	Sidhu Moosewala
+                   	</span>	
+                   </div>
+
+     	    </div>	
+     	    <div class="item-3" >
+                <div class="item-icon" >
+     	 		 <img src="https://img.bestwap2.in/load/MP3_Songs/Punjabi_Songs/2018%20Punjabi%20Songs/folder-thumb-PBX1%20Punjabi%20Mp3%20Songs%20-%20Sidhu%20Moose%20Wala.jpg">	
+     	 		 
+     	 		 </div> 	
+     	 		  <div class="item-player dropdown-menu " >
+ 					 <div class="item-player-icon"  >
+                        <i class="fas fa-ellipsis-h"></i>
+ 					 </div> 
+                     <div class="dropdown-list" >
+ 						<ul class="no-list-style" >
+ 						 <li>
+ 						   <p><i class="fas fa-play"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <a href="#music-player">Play </a></i>
+ 						  </p>
+ 						 </li> 	 
+ 						 <li>
+ 						  <p><i class="fas fa-plus">
+ 						  	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+ 						  	<a href="#">Add</a>
+ 						  </i></p>
+ 						 </li>	
+                         <li>
+                           <p  >
+                           	<i class="fas fa-info-circle"> &nbsp &nbsp &nbsp &nbsp<a href="#"> Get info</a></i>
+                           </p>
+                         </li>  	
+                     </div>	
+                   </div>  
+
+                    <div class="item-song-name" >
+                    <span style="color:white; font-weight:bolder;">
+                    	Trend
+                    </span>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp 
+                   
+                    <span style="color:white; font-weight:lighter;">
+                    	4:45 
+                    </span>
+                   </div> 
+
+                   <div class="item-song-singer" >
+                   	<span style="color:grey; font-weight:lighter; ">
+                   	Sidhu Moosewala
+                   	</span>	
+                   </div>
+
+     	    </div>	
+     	    <div class="item-4" >
+ 				<div class="item-icon" >
+     	 		 <img src="https://img.bestwap2.in/load/MP3_Songs/Punjabi_Songs/2018%20Punjabi%20Songs/folder-thumb-PBX1%20Punjabi%20Mp3%20Songs%20-%20Sidhu%20Moose%20Wala.jpg">	
+     	 		 
+
+     	 		 </div> 	
+     	 		  <div class="item-player dropdown-menu " >
+ 					 <div class="item-player-icon"  >
+                        <i class="fas fa-ellipsis-h"></i>
+ 					 </div> 
+                     <div class="dropdown-list" >
+ 						<ul class="no-list-style" >
+ 						 <li>
+ 						   <p><i class="fas fa-play"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <a href="#music-player">Play </a></i>
+ 						  </p>
+ 						 </li> 	 
+ 						 <li>
+ 						  <p><i class="fas fa-plus">
+ 						  	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+ 						  	<a href="#">Add</a>
+ 						  </i></p>
+ 						 </li>	
+                         <li>
+                           <p  >
+                           	<i class="fas fa-info-circle"> &nbsp &nbsp &nbsp &nbsp<a href="#"> Get info</a></i>
+                           </p>
+                         </li>  	
+                     </div>	
+                   </div>  
+
+                    <div class="item-song-name" >
+                    <span style="color:white; font-weight:bolder;">
+                    	Trend
+                    </span>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp 
+                   
+                    <span style="color:white; font-weight:lighter;">
+                    	4:45 
+                    </span>
+                   </div> 
+
+                   <div class="item-song-singer" >
+                   	<span style="color:grey; font-weight:lighter; ">
+                   	Sidhu Moosewala
+                   	</span>	
+                   </div>
+
+     	    </div>	
+     	 </div>	
+        
+         <div id="music-player" >
+         	 <a style="text-decoration:none; color:white;" href="#">X</a>
+              <div class="music-player-image" >
+              	<img src="https://img.bestwap2.in/load/MP3_Songs/Punjabi_Songs/2018%20Punjabi%20Songs/folder-thumb-PBX1%20Punjabi%20Mp3%20Songs%20-%20Sidhu%20Moose%20Wala.jpg">
+              </div>
+              <div id="song-details">
+              	<span style="color:white; ">
+              	 Trend 
+              	</span> 
+              	&nbsp &nbsp &nbsp	
+              	<i style="color:white;" class="far fa-heart"></i>
+                &nbsp 
+                <i style="color:white;" class="fas fa-ban"></i>
+              </div>
+              <div class="song-controller" >
+              	<i style="color:white; " class="fas fa-plus"></i>
+              	&nbsp &nbsp &nbsp &nbsp
+              	<i style="color:white;" class="fas fa-backward"></i>
+              	&nbsp &nbsp &nbsp &nbsp
+              	<i style="color:white; font-size:2rem; "  class="fas fa-play-circle"></i>
+              	&nbsp &nbsp &nbsp &nbsp
+              	<i style="color:white;" class="fas fa-forward"></i>
+              	&nbsp &nbsp &nbsp 
+              	<i style="color:white; " class="fas fa-reply"></i>
+              </div>	
+             
+              <div class="song-singer">
+              	<span style="color:grey; overflow:auto;  ">Sidhu Moosewala</span> 	
+              </div>
+
+              <div class="song-bar">
+              	 &nbsp &nbsp &nbsp &nbsp 
+                 <span style="position:absolute; top:-25%; color:white; font-size:0.9;">
+                 	2:16
+                 </span>
+ 				 <div id="music-bar">
+ 				 </div>	
+ 				 <div id="music-bar-2">
+ 				 </div>	
+                 <div id="circle" >
+ 				 	<i style="color:white;" class="fas fa-circle"></i>
+                 </div>	
+                   &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <span style="position:absolute;  color:white;  top:-25%; ">4:45 </span> 
+              </div>
+             
+   			  <div class="song-side-bar" >
+   			  	<span style="color:white">
+   			  		<i class="fas fa-sliders-h"></i>
+   			  	</span>
+                &nbsp &nbsp 
+                <span style="color:white">
+                	<i class="fas fa-headphones"></i>
+                </span> 
+                &nbsp &nbsp 
+                <span style="color:white; ">
+                	<i class="fas fa-volume-up"></i>
+                </span>
+                 
+                <div id="volume-bar" >
+                   <div id="volume-bar-2" >
+                   </div>
+   				</div>
+   				 <div id="circle-2" >
+ 				 	<i style="color:white;" class="fas fa-circle"></i>
+                     </div>		
+   			  </div>	
+
+         </div>		
+
+
+     </section>    
+          
+    	
+    	<section class="singer-name-icon">
+    	<span style="position:absolute;  top:5%; left:1%; color:white; font-size:2rem;  ">
+    	Popular Artists 
+    	</span>	
+       
+        <div class="singer-image-1 opaque" >
+        <a href="musicplayersecond.html"> <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/karan-300x300.png">
+        </a>
+        <span style="position:absolute; font-size:1.2rem; top:75%; left:18%; color:white;     ">
+        Karan Aujla 
+        </span>	
+
+        </div>  	
+        <div class="singer-image-2  opaque" >
+        <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/arijit-300x300.png" >
+         <span style="position:absolute; font-size:1.2rem; top:75%; left:18%; color:white;     ">
+        Arijit Singh 
+        </span>	
+
+        </div>  	
+        <div class="singer-image-3  opaque" >
+        <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/https://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Drake-300x300.png">
+        <span style="position:absolute; font-size:1.2rem; top:75%; left:35%; color:white;     ">
+        Drake
+        </span>
+        </div>  	
+        <div class="singer-image-4  opaque" >
+         <img src="https://yt3.ggpht.com/a/AATXAJw0kOxbvdEzV5zftHM4HtEpzrg85PYdqlh-dg=s900-c-k-c0xffffffff-no-rj-mo">	
+          <span style="position:absolute; font-size:1.2rem; top:75%; left:18%; color:white;     ">
+        Bruno Mars
+        </span>	
+        </div>  	
+        <div class="singer-image-5  opaque" >
+        	<img src="https://cdn.pinkvilla.com/files/styles/contentpreview/public/raftaar_1.jpg?itok=AVbSiGKn">
+        	<span style="position:absolute; font-size:1.2rem; top:75%; left:35%; color:white;     ">
+        Raftaar
+        </span>
+        </div>  	
+        <div class="singer-image-6  opaque" >
+        <img src="https://lastfm.freetls.fastly.net/i/u/ar0/6fc71cd316e34f6ef7596346097726ea.jpg">	
+         <span style="position:absolute; font-size:1.2rem; top:75%; left:18%; color:white;     ">
+        The Prophec
+        </span>	
+        </div>  	
+    	</section>
+
+
+
+    <section class="music-station">
+
+     <div class="music-station-icon" >
+     	<img src="https://images-eu.ssl-images-amazon.com/images/I/715jDsCcblL.png"> 
+     </div>	
+      
+     <div class="music-type-1">
+     	<img src="https://thumbs.dreamstime.com/b/hearts-abstract-love-background-be-my-valentine-love-romantic-background-paper-cut-hearts-valentines-day-february-133330552.jpg">
+     	<span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Love	
+     		
+     	</span>
+     </div> 
+     <div class="music-type-2">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_Edge_in_Belfast%2C_Nov_19_2015.jpg/1200px-The_Edge_in_Belfast%2C_Nov_19_2015.jpg">
+     	<span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Rock
+     	</span>
+     </div> 
+     <div class="music-type-3">
+     	<img src="https://image.freepik.com/free-photo/sketchbook-near-laptop-coffee_23-2147768817.jpg">
+     	<span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Chill
+     	</span>
+     </div> 
+     <div class="music-type-4">
+       <img src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/2019/10/How-to-organise-music-concert.jpg">
+       <span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Pop
+     	</span>
+
+     </div> 
+     <div class="music-type-5">
+     	<img src="https://c4.wallpaperflare.com/wallpaper/122/787/757/background-radio-receiver-wallpaper-preview.jpg">
+     	<span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Retro
+     	</span>
+     </div> 
+     <div class="music-type-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5shNMP9nXETQlZt5wgIqIfQ700D9VOolufbu68SGECT8AYae6&usqp=CAU">
+     	<span style="color:white; position:absolute; top:35%; left:30%; z-index:2; font-size:1.2rem;     ">
+     	 Dance
+     	</span>
+     </div>
+    	
+    </section>
+    
+
+
+    <section class="music-genre">
+    	
+
+     <div class="music-genre-icon-1 scaling-animation">
+     	<img src="https://miro.medium.com/max/5576/1*bbrdaWB-Yz8MVm6T-QZuug.jpeg">
+     	<span style="color:white; position:absolute; top:30%; left:29%; font-size:2rem; z-index:2    ">
+        Electronic
+     	</span>
+     </div>
+
+     <div class="music-genre-icon-2 scaling-animation "> 
+     	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBtg3pFct_0-4-JvTyTDjyfgcwV5s607vTm8fCvvdc3MYlwzEh&usqp=CAU">
+     	<span style="color:white; position:absolute; top:30%; left:40%; font-size:2rem; z-index:2    ">
+        Party
+     	</span>
+     </div>
+
+
+     <div class="music-genre-icon-3 scaling-animation ">
+     	<img src="https://images.unsplash.com/photo-1486673748761-a8d18475c757?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9">
+
+     	<span style="color:white; position:absolute; top:30%; left:29%; font-size:2rem; z-index:2    ">
+        Road Trip
+     	</span>
+     </div>
+
+    </section>
+   
+
+
+
+
+    <section class="latest-song-english">
+        <span style="position:absolute; top:1%; left:1%; color:white; font-size:1.5rem;   ">
+        Latest English 
+        	
+        </span>
+
+    	<div class="latest-song-english-1" >
+    	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPJPULK-wH_d2jjulXNafqM3Usa3_VFAhKPgx7s-yZuJ5llrmR&usqp=CAU">	
+
+    	 <span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Gods Plan
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+       </div>		
+    	
+    	<div class="latest-song-english-2" >
+    	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjk4WrlZ1EPoyRgk25jdY6LPhD0GLWUj6xBDwxUPBRGBRS3CeJ&usqp=CAU"> 	
+
+         <span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	GodZilla
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+
+       </div>
+
+       <div class="latest-song-english-3" >
+       	<img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Ariana_Grande_-_7_rings.png/220px-Ariana_Grande_-_7_rings.png">
+        
+          <span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	7 Rings
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+
+       </div>
+
+
+       <div class="latest-song-english-4" >
+ 		<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg">
+
+ 		 <span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Perfect
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+       </div>
+
+       <div class="latest-song-english-5" >
+       	<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Drdre2.JPG/220px-Drdre2.JPG">
+       	 <span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Still dre 
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+       </div>
+
+       </div>
+       <div class="latest-song-english-6" >
+       	<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Justin_Bieber_-_Sorry_%28Official_Single_Cover%29.png/220px-Justin_Bieber_-_Sorry_%28Official_Single_Cover%29.png">
+       	<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Sorry
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+       </div>
+
+       <div class="latest-song-english-7" >
+       	<img src="https://c.saavncdn.com/507/Astronomia-English-2020-20200118010641-500x500.jpg">
+       	 	<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Astronomia
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+
+       </div>
+
+    </section>
+
+
+    <section class="latest-song-hindi"> 
+    	<span style="position:absolute; top:1%; left:1%; color:white; font-size:1.5rem;   ">
+        Latest hindi & Punjabi 
+        	 
+        </span>
+
+
+    	
+
+       <div class="latest-song-hindi-1"  >
+       	<img src="https://c.saavncdn.com/608/Bekhayali-From-Kabir-Singh--Hindi-2019-20190524024538-500x500.jpg">
+
+       	<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Bekhayali
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>
+
+       </div>
+
+         <div class="latest-song-hindi-2"  >
+         	<img src="https://i1.sndcdn.com/artworks-000412615359-th1t2d-t500x500.jpg">
+			<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Morni banke
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>         	
+
+       </div>
+
+       <div class="latest-song-hindi-3"  >
+       		<img src="https://images.genius.com/5ebd9d9a042fc177379a28f8e007d752.600x600x1.jpg">
+       		<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	loco
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>        
+
+       </div>
+       <div class="latest-song-hindi-4"  >
+       		<img src="https://a10.gaanacdn.com/gn_img/albums/Oxd3xP3gVY/xd3xYryYWg/size_xxl.jpg">
+
+
+       		<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Hint
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>        
+
+       </div>
+       <div class="latest-song-hindi-5"  >
+        <img src="https://djravish.com/wp-content/uploads/2018/12/putt-jatt-da300.jpg">
+ 		<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Putt Jaat Da
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>     
+
+
+       </div>
+       <div class="latest-song-hindi-6"  >
+       	<img src="https://i1.sndcdn.com/artworks-000593878347-e7ayi9-t500x500.jpg">	
+
+       	<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Tu he Ah
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>     
+
+
+       </div>
+       <div class="latest-song-hindi-7"  >
+
+       	<img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Tum_Hi_Aana.jpg">
+	<span style="position:absolute; top:80%; left:5%; color:white; ">
+    	 	Tum he anaa
+    	 </span>
+    	 <span style="position:absolute; top:90%; left:5%; color:grey;  ">
+    	 	Aug 11 , 2017
+    	 </span>     
+       </div>
+    </section>
+
+    
+    <section class="top-singer">
+
+     <span style="position:absolute; top:2%; left:5%; font-size:1.8rem; color:white;   ">
+     	Top Singer of the week
+     </span>	
+    	
+     <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/karan-300x300.png">
+      
+     <span style="position:absolute; top:60%; left:30%; font-size:1.4rem; color:white;  ">
+     Karan Aujla	
+     </span>
+     
+     <span style="position:absolute; top:70%; left:5%; font-size:1.5rem; color:white;   ">
+     	Top song 
+     </span>
+
+     <span style="position:absolute; top:85%; left:4%; color:darkgrey ">
+      Hint by Karan Aujla
+     </span>  
+      
+      <img style="position:absolute; height:70px; width:70px; top:80%; left:60%;" 
+      src="https://a10.gaanacdn.com/gn_img/albums/Oxd3xP3gVY/xd3xYryYWg/size_xxl.jpg">
+
+      
+    </section>
+
+
+
+
+
+  </main>
+
+
+</body>
+</html>

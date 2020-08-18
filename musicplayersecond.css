@@ -1,0 +1,655 @@
+html {
+	font-family:sans-serif; 
+}
+
+#main-body {
+	background-color:#060627; 
+}
+
+
+/*body Starts here 
+
+/*left header */
+.main-header {
+	height:80px; 
+	width:auto;
+	position:relative;
+	/*border:2px solid white;*/ 
+}
+
+.left-corner-header {
+	width:40%;
+	height:inherit;
+	position:absolute;  
+}
+
+.left-corner-header img {
+	overflow:hidden;
+	width:70px;
+	height:70px;  
+	margin-left:20px;  
+}
+
+.heading-title {
+	position:absolute;
+	top:20%;
+	margin-left:100px; 
+	font-family:cursive; 
+
+}
+
+#fav {
+  position:relative; 
+  margin-left:150px; 
+}
+#fav a {
+	background-color:inherit;
+	text-decoration:none; 
+	color:white;
+	font-size:1.1rem; 
+}
+
+/*right header */
+
+.right-corner-header {
+	width:50%;
+	height: inherit;
+	position:absolute;  
+	left:50%;
+	/*border:1px solid white;  */
+}
+.search-bar {
+   position:relative; 
+}
+
+.search-bar a{
+ font-size:0.9rem; 
+ position:absolute;
+ left:50%; 
+ z-index:2;  
+ width:200px; 
+ padding-left:35px; 
+ padding-bottom:5px;  
+ padding-top:5px; 
+ color:lightgrey;
+ margin-top:10px;   
+ border-style:solid;
+ border-radius:10%; 
+ border-color:#060627;
+ border-width:1px;      
+ background-color:#1f1f4a;  
+ text-decoration:none;  
+}
+
+.search-bar-icon i {
+	font-size:1.1rem;
+	position:absolute;
+	top:17%; 
+	color:white;
+	left:51%;
+    display:all; 
+    z-index:3 
+  
+
+}
+.notification-icon i {
+	color:white;
+	position:absolute;
+	font-size:1.3rem; 
+	top:16%;
+	left:89%;    
+	z-index:3;  
+}
+
+.microphone-icon i {
+	color:white;
+	position:absolute;
+	font-size:1.3rem; 
+	top:16%;
+	left:80%;    
+	z-index:3;  
+}
+
+.user-image {
+	color:white;
+	position:absolute;
+	font-size:1.3rem; 
+	top:16%;
+	left:95%;    
+	z-index:3; 
+
+}
+
+/* header ends here */ 
+
+/*main body starts here */
+
+
+/*singer bio*/
+.singer-bio {
+	position:relative;
+	left:5%;
+	width:67%;   
+	height:450px;
+	display:flex;  
+}
+
+.singer-bio-image {
+	position:absolute;
+	height:500px;
+	width:400px;   
+}
+
+.singer-bio-image img {
+	height:450px;
+	width:400px;   
+}
+
+
+.singer-bio-detail {
+	position:absolute;
+	left:44%;
+	top:36%;
+	height:200px;
+	width:500px;
+	color:grey;   
+}
+
+.singer-bio-button {
+	position:absolute;
+	left:44%;
+	top:70%;
+}
+
+.singer-bio-button button {
+	font-size:1.5rem;
+	width:200px;
+	color:white;
+	border-style:none; 
+	background-image:linear-gradient(90deg ,darkblue,purple);      
+}
+
+/*singer-bio ends here */
+
+/* similaar artist starts here */
+
+.simillar-artist {
+	display:inline-block;
+	position:absolute;
+	top:11%;
+	left:73%;
+	width:25%;
+	height:450px; 
+	overflow:auto; 
+}
+
+.simillar-artist-icon-1 {
+	position:absolute;
+	width:95%;
+	left:1%;
+	top:15%;  
+	height:80px;
+}
+
+.simillar-artist-icon-1 img {
+	position:absolute;
+	left:2%;
+	top:2%;
+	height:80px; 
+	width:80px; 
+}
+
+
+.simillar-artist-icon-2 {
+	position:absolute;
+	width:95%;
+	left:1%;
+	top:39%;  
+	height:80px;
+}
+
+.simillar-artist-icon-2 img {
+	position:absolute;
+	left:2%;
+	top:2%;
+	height:80px; 
+	width:80px; 
+}
+
+.simillar-artist-icon-3 {
+	position:absolute;
+	width:95%;
+	left:1%;
+	top:63%;  
+	height:80px;
+}
+
+.simillar-artist-icon-3 img {
+	position:absolute;
+	left:2%;
+	top:2%;
+	height:80px; 
+	width:80px; 
+}
+
+.simillar-artist-icon-4 {
+	position:absolute;
+	width:95%;
+	left:1%;
+	top:87%;  
+	height:80px;
+}
+
+.simillar-artist-icon-4 img {
+	position:absolute;
+	left:2%;
+	top:2%;
+	height:80px; 
+	width:80px; 
+}
+
+.simillar-artist-icon-5 {
+	position:absolute;
+	width:95%;
+	left:1%;
+	top:111%;  
+	height:80px;
+}
+
+.simillar-artist-icon-5 img {
+	position:absolute;
+	left:2%;
+	top:2%;
+	height:80px; 
+	width:80px; 
+}
+
+/* simillar artist ends here */
+
+
+/* singer songs start here */
+
+.singer-songs {
+	position:relative;
+	width:67%;
+	height:700px; 
+	left:5%;   
+	overflow:auto; 
+}
+
+.song-1 {
+	position:absolute;
+	top:5%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-1 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+	display:inline-block; 
+}
+
+
+.song-2 {
+	position:absolute;
+	top:20%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-2 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+
+.song-3 {
+	position:absolute;
+	top:35%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-3 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+
+.song-4 {
+	position:absolute;
+	top:50%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-4 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+.song-5 {
+	position:absolute;
+	top:65%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-5 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+.song-6 {
+	position:absolute;
+	top:80%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-6 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+.song-7 {
+	position:absolute;
+	top:95%;
+	left:2%;
+	width:96%;
+	height:75px;
+	background-color:#03122b87;  
+}
+
+.song-7 img {
+	width:65px;
+	height:65px;
+	position:absolute;
+	top:5%;
+	left:5%;   
+}
+
+
+
+
+
+
+
+
+
+/* */
+#music-player {
+	top:0;
+    height:0;
+    width:0;
+    left:1%;
+    position:fixed;
+    overflow:hidden;
+    z-index:100; 
+     
+}
+
+#music-player:target{
+    height:300px;
+    width:98%;
+    top:90%;
+    bottom:2%; 
+    background-color:#272525;
+    z-index: 
+    
+
+}
+
+
+.music-player-image {
+	position:absolute;
+	height:50px;
+	width:50px; 
+	left:10%;  
+}
+
+.music-player-image img {
+	height:50px;
+	width:50px; 
+}
+
+#song-details {
+	position:absolute;
+	left:15%;
+	height: 20px;
+	width:120px;  
+}
+
+.song-controller {
+	position:absolute;
+	width:250px;
+	height:30px;
+	left:45%; 
+	top:3%;
+}
+
+.song-singer {
+	position: absolute;
+	width:100px;
+	height:20px;
+	left:15%;
+	top:15%;   
+}
+
+.song-bar {
+	position:absolute;
+	width:60%;
+	left:30%;
+	height:20px;
+	top:15%;    
+}
+
+#music-bar {
+	position:absolute;
+	left:10%;
+	width:500px;
+	height:2px;
+	border:2px solid grey;
+	top:25%;
+	background-color:grey;
+
+}
+
+#circle {
+	position: absolute;
+	left:45%;
+	color:white;
+	top:-10%;
+	margin-bottom:10px;
+	display:all;   
+}
+
+#music-bar-2 {
+	position:absolute;
+	left:10%;
+	width:300px;
+	height:2px;
+	border:2px solid green;
+	top:25%;
+	background-color:green;
+
+}
+
+.song-side-bar {
+	position:absolute;
+	width:250px;
+	left:80%;
+	height:20px;
+     
+}
+
+#volume-bar {
+	position: absolute;
+	left:45%;
+	width: 90px;
+	height:2px;
+	border:1px solid grey;
+	background-color: grey;  
+	top:45%; 
+}
+
+#volume-bar-2 {
+	position: absolute;
+	width: 70px;
+	height:2px;
+	top:0%;
+
+	border:1px solid green;
+	background-color: green;
+
+}
+
+#circle-2 {
+	position:absolute;;
+	left:70%;
+	color:white;
+	top:5%  
+}
+
+
+/* singer songs ends here */
+
+
+/* recently played */ 
+
+.recently-played {
+	position:absolute;
+	display:inline-block; 
+	left:40%; 
+	top:70%;
+	left:73%; 
+	width:24%;
+	height:500px;     
+	overflow:auto; 
+}
+
+.recent-song-1 {
+	position:absolute;
+	top:10%;
+	left:2%;
+	width:95%;
+	height:90px;
+}
+
+.recent-song-1 img {
+	height:70px;
+	width:70px;
+	position:absolute;
+	left:10%;
+	top:9%;    
+}
+
+.recent-song-2 {
+	position:absolute;
+	top:30%;
+	left:2%;
+	width:95%;
+	height:90px;
+}
+
+.recent-song-2 img {
+	height:70px;
+	width:70px;
+	position:absolute;
+	left:10%;
+	top:9%;    
+}
+
+.recent-song-3 {
+	position:absolute;
+	top:50%;
+	left:2%;
+	width:95%;
+	height:90px;
+}
+
+.recent-song-3 img {
+	height:70px;
+	width:70px;
+	position:absolute;
+	left:10%;
+	top:9%;    
+}
+
+.recent-song-4 {
+	position:absolute;
+	top:70%;
+	left:2%;
+	width:95%;
+	height:90px;
+}
+
+.recent-song-4 img {
+	height:70px;
+	width:70px;
+	position:absolute;
+	left:10%;
+	top:9%;    
+}
+
+.recent-song-5 {
+	position:absolute;
+	top:90%;
+	left:2%;
+	width:95%;
+	height:90px;
+}
+
+.recent-song-5 img {
+	height:70px;
+	width:70px;
+	position:absolute;
+	left:10%;
+	top:9%;    
+}
+
+
+
+/* responsive design */
+
+
+
+
+
+
+
+
+
+
+
